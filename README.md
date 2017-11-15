@@ -2,6 +2,7 @@
  ![alt tag](https://cdn-images-1.medium.com/max/1280/1*2ZnWDYFDhoM3QStBoghWeA.png)
  
  # How to convert a trained model into a Core ML Model? 
+* Converting Trained Models to Core ML : http://apple.co/2sjpAXw
 * Creating an IOS app with Core ML from scratch!by Gerardo Lopez Falcón : http://bit.ly/2hBqU3Y
 * Understanding conversion process Udemy by Mohammad Azam : http://bit.ly/2zJUZD3
 
