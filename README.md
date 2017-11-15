@@ -20,7 +20,8 @@ coreml_model.save('MessageClassifier.mlmodel')
 #oxford102.caffemodel – the trained data model in Caffe format.
 #class_labels.txt – contains a list of all the flowers that the model is able to recognize.
 
-coreml_model = coremltools.converters.caffe.convert(('oxford102.caffemodel','deploy.prototxt'), image_input_names='data', class_labels='class_labels.txt')
+coreml_model = coremltools.converters.caffe.convert(('oxford102.caffemodel','deploy.prototxt'), 
+image_input_names='data', class_labels='class_labels.txt')
 coreml_model.save(coreml_model.save('Flowers.mlmodel'))
 
 ```
